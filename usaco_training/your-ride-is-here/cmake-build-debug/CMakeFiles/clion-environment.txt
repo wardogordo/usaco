@@ -1,4 +1,0 @@
-ToolSet: 16.0 (local)@C:\Program Files (x86)\Microsoft Visual Studio\2019\Community
-Options: 
-
-Options:-DCMAKE_MAKE_PROGRAM=C:/Users/wardh/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/ninja/win/ninja.exe
