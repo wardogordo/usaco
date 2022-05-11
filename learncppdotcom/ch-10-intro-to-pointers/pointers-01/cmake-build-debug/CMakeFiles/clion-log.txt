@@ -1,4 +1,0 @@
-C:\Users\wardh\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\212.5284.51\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_DEPENDS_USE_COMPILER=FALSE -G "CodeBlocks - NMake Makefiles" D:\GitHub\learncppdotcom\ch-10-intro-to-pointers\pointers-01
--- Configuring done
--- Generating done
--- Build files have been written to: D:/GitHub/learncppdotcom/ch-10-intro-to-pointers/pointers-01/cmake-build-debug

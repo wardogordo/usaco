@@ -1,3 +1,0 @@
-D:/GitHub/learncppdotcom/ch-10-intro-to-pointers/testers/cmake-build-debug/CMakeFiles/testers.dir
-D:/GitHub/learncppdotcom/ch-10-intro-to-pointers/testers/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/GitHub/learncppdotcom/ch-10-intro-to-pointers/testers/cmake-build-debug/CMakeFiles/rebuild_cache.dir
