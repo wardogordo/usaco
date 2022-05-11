@@ -1,0 +1,15 @@
+D:\GitHub\usaco_training\your-ride-is-here\bin\Debug\net6.0\your-ride-is-here.exe
+D:\GitHub\usaco_training\your-ride-is-here\bin\Debug\net6.0\your-ride-is-here.deps.json
+D:\GitHub\usaco_training\your-ride-is-here\bin\Debug\net6.0\your-ride-is-here.runtimeconfig.json
+D:\GitHub\usaco_training\your-ride-is-here\bin\Debug\net6.0\your-ride-is-here.dll
+D:\GitHub\usaco_training\your-ride-is-here\bin\Debug\net6.0\ref\your-ride-is-here.dll
+D:\GitHub\usaco_training\your-ride-is-here\bin\Debug\net6.0\your-ride-is-here.pdb
+D:\GitHub\usaco_training\your-ride-is-here\obj\Debug\net6.0\your-ride-is-here.csproj.AssemblyReference.cache
+D:\GitHub\usaco_training\your-ride-is-here\obj\Debug\net6.0\your-ride-is-here.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\usaco_training\your-ride-is-here\obj\Debug\net6.0\your-ride-is-here.AssemblyInfoInputs.cache
+D:\GitHub\usaco_training\your-ride-is-here\obj\Debug\net6.0\your-ride-is-here.AssemblyInfo.cs
+D:\GitHub\usaco_training\your-ride-is-here\obj\Debug\net6.0\your-ride-is-here.csproj.CoreCompileInputs.cache
+D:\GitHub\usaco_training\your-ride-is-here\obj\Debug\net6.0\your-ride-is-here.dll
+D:\GitHub\usaco_training\your-ride-is-here\obj\Debug\net6.0\ref\your-ride-is-here.dll
+D:\GitHub\usaco_training\your-ride-is-here\obj\Debug\net6.0\your-ride-is-here.pdb
+D:\GitHub\usaco_training\your-ride-is-here\obj\Debug\net6.0\your-ride-is-here.genruntimeconfig.cache
