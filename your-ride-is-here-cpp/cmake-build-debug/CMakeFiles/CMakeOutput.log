@@ -50,16 +50,16 @@ The CXX compiler identification is MSVC, found in "D:/GitHub/usaco_training/your
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: D:/GitHub/usaco_training/your-ride-is-here-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/wardh/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/ninja/win/ninja.exe cmTC_fc4f0 && [1/2] Building C object CMakeFiles\cmTC_fc4f0.dir\CMakeCCompilerABI.c.obj
-[2/2] Linking C executable cmTC_fc4f0.exe
+Run Build Command(s):C:/Users/wardh/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/ninja/win/ninja.exe cmTC_3d624 && [1/2] Building C object CMakeFiles\cmTC_3d624.dir\CMakeCCompilerABI.c.obj
+[2/2] Linking C executable cmTC_3d624.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: D:/GitHub/usaco_training/your-ride-is-here-cpp/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Users/wardh/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/ninja/win/ninja.exe cmTC_3d1a1 && [1/2] Building CXX object CMakeFiles\cmTC_3d1a1.dir\CMakeCXXCompilerABI.cpp.obj
-[2/2] Linking CXX executable cmTC_3d1a1.exe
+Run Build Command(s):C:/Users/wardh/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/ninja/win/ninja.exe cmTC_02569 && [1/2] Building CXX object CMakeFiles\cmTC_02569.dir\CMakeCXXCompilerABI.cpp.obj
+[2/2] Linking CXX executable cmTC_02569.exe
 
 
 

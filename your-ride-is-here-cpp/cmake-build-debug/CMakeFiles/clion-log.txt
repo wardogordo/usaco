@@ -1,4 +1,4 @@
-C:\Users\wardh\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5080.224\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/wardh/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5080.224/bin/ninja/win/ninja.exe -G Ninja -S D:\GitHub\usaco_training\your-ride-is-here-cpp -B D:\GitHub\usaco_training\your-ride-is-here-cpp\cmake-build-debug
+C:\Users\wardh\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\221.5591.52\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/wardh/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/ninja/win/ninja.exe -G Ninja -S D:\GitHub\usaco_training\your-ride-is-here-cpp -B D:\GitHub\usaco_training\your-ride-is-here-cpp\cmake-build-debug
 -- The C compiler identification is MSVC 19.29.30133.0
 -- The CXX compiler identification is MSVC 19.29.30133.0
 -- Detecting C compiler ABI info
