@@ -1,5 +1,15 @@
+/* Use the slash-star style comments or the system won't see your
+   identification information */
+/*
+ID: wardhol1
+TASK: ride
+LANG: C++
+*/
+/* LANG can be C++11 or C++14 for those more recent releases */
+
 #include <iostream>
 #include <string>
+#include <fstream>
 #include <regex>
 #include <locale>
 
@@ -7,23 +17,23 @@ std::string cometName{};
 std::string groupName{};
 int cometProduct{1};
 int groupProduct{1};
+std::string decision{};
 
 void ValidateCometInput(std::string str)
 {
     if(!std::regex_match(str, std::regex("[A-Za-z]+")))
-        {
-            std::cin.clear(); //TODO => fix the cin buffer clear in order to redo after incorrect entries.
+    {
         std::cout << "Comet names can only include alpha characters.\n";
-            std::cout << "Your entry: " << str << '\n';
-            std::cin.clear();
-            std::cout << "Try again with a comet name with only alpha characters: ";
-            std::cin >> cometName;
-            ValidateCometInput(cometName);
-        }
+        std::cout << "Your entry: " << str << '\n';
+        std::cin.clear();
+        std::cout << "Try again with a comet name with only alpha characters: ";
+        std::cin >> cometName;
+        ValidateCometInput(cometName);
+    }
+/*
 
     if (str.length() != 6)
     {
-        std::cin.clear();
         std::cout << "Comet name length must be exactly 6 characters in length.\n";
         std::cout << "Your " << str.length() << " character entry: " << str << '\n';
         std::cin.clear();
@@ -31,6 +41,7 @@ void ValidateCometInput(std::string str)
         std::cin >> cometName;
         ValidateCometInput(cometName);
     }
+*/
 
     std::cout << "Comet name entry successfully validated: " << cometName << '\n';
 }
@@ -39,7 +50,7 @@ void ValidateGroupInput(std::string str)
 {
     if(!std::regex_match(str, std::regex("[A-Za-z]+")))
     {
-        std::cin.clear();
+//        std::cin.clear();
         std::cout << "Group names can only include alpha characters.\n";
         std::cout << "Your entry: " << str << '\n';
         std::cin.clear();
@@ -47,10 +58,11 @@ void ValidateGroupInput(std::string str)
         std::cin >> groupName;
         ValidateCometInput(groupName);
     }
+/*
 
     if (str.length() != 6)
     {
-        std::cin.clear();
+//        std::cin.clear();
         std::cout << "Group name length must be exactly 6 characters in length.\n";
         std::cout << "Your " << str.length() << " character entry: " << str << '\n';
         std::cin.clear();
@@ -58,6 +70,7 @@ void ValidateGroupInput(std::string str)
         std::cin >> groupName;
         ValidateCometInput(groupName);
     }
+*/
 
     std::cout << "Group name entry successfully validated: " << groupName << '\n';
 }
@@ -83,7 +96,6 @@ void GroupNameToUpper(std::string group)
     std::cout << "Group name converted to uppercase: " << group << '\n';
     groupName = group;
 }
-
 
 void ComputeComet()
 {
@@ -111,28 +123,33 @@ void StayOrGo()
     std::cout << "cometProduct % 47 = " << cometProduct % 47 << '\n';
     std::cout << "groupProduct % 47 = " << groupProduct % 47 << '\n';
     if (cometProduct % 47 == groupProduct % 47)
-        std::cout << "GO" << '\n';
+        decision = "GO";
     else
-        std::cout << "STAY" << '\n';
+        decision = "STAY";
 }
 
 int main()
 {
-    std::cout << "Please enter a comet name: ";
-    std::cin >> cometName;
+    std::ofstream fout ("ride.out");
+    std::ifstream fin ("ride.in");
+    fin >> cometName >> groupName;
+
+//    std::cout << "Please enter a comet name: ";
+//    std::cin >> cometName;
     ValidateCometInput(cometName);
-    std::cout << "Now enter a group name: ";
-    std::cin >> groupName;
+//    std::cout << "Now enter a group name: ";
+//    std::cin >> groupName;
 
     ValidateGroupInput(groupName);
 
-    // Alphas to upper
     CometNameToUpper(cometName);
     GroupNameToUpper(groupName);
 
     ComputeComet();
     ComputeGroup();
     StayOrGo();
+    fout << decision << '\n';
+    std::cout << decision << '\n';
     return 0;
 }
 
